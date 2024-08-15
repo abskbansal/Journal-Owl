@@ -1,0 +1,30 @@
+.news-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.no-results {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .news-box {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .news-box {
+        width: 30%;
+    }
+}
